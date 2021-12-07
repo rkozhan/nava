@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<head>
+	<!-------------------------------------------------------------------------------------------------------TITLE--------------------->
+	<title>START</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<!-------------------------------------------------------------------------------------------------------FONTS--------------------->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet">
+
+	<!-------------------------------------------------------------------------------------------------------STYLESHEET--------------------->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!----------------------HEADER---------------------------------------------------->
+		<header class="header">
+			<div class="header__container _container">
+				<a href="#" class="header__logo"><img src="/img/logo.png" alt=""></a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto=".page__section_1" href="#" class="menu__link">Top destinations</a></li>
+							<li><a data-goto=".page__section_2" href="#" class="menu__link">Add your boat</a></li>
+							<li><a href="#" data-signup="data-signup" class="menu__link _button">Sign up</a></li>
+						</ul>
+
+						<div class="menu__login login">
+							<form name="login" class="login__form form">
+								<input placeholder="username or email" name="login" value size="30" maxlength="50" type="text"
+									class="login__form_username form__input"></input>
+								<input type="password" placeholder="password" name="login" value size="30" maxlength="200"
+									class="login__form_pass form__input"></input>
+								<button type="submit" class="login__btn _btn form__submit">Login</button>
+							</form>
+							<div class="login__wrong_user">This user is not registered</div>
+							<div class="login__wrong_pass">The passoprt is incorrect</div>
+							<div class="login__after">
+								<a href="#" class="login__register">Register</a>
+								<a href="#" class="login__lost">Lost password</a>
+							</div>
+						</div>
+
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!----------------------END HEADER---------------------------------------------------->
+
+		<section class="parallax">
+			<div class="parallax__body">
+
+
+
+				<div class="parallax__container first-page">
+					<div class="first-page__container _container">
+						<h1 class="first-page__title">Reserve a boat now!</h1>
+						<div class="first-page__label">And set your sails into paradise!</div>
+
+						<form class="first-page__form form">
+							<input type="text" name="destination" value="" class="form__input"
+								placeholder="What is your destination, sailor?">
+							<button type="button" name="destination-submit" class="form__submit">Find a boat</button>
+						</form>
+					</div>
+				</div>
+				<div class="parallax__images images-parallax">
+
+					<div class="images-parallax__item">
+						<div class="images-parallax__first"></div>
+					</div>
+
+					<div class="images-parallax__item">
+						<div class="images-parallax__second"></div>
+					</div>
+
+					<div class="images-parallax__item">
+						<div class="images-parallax__third"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+
+
+
+		<div class="parallax-after-wrapper">
+			<!---------------------------------------------------------------------------------------------------------------------------->
+			<main class="page">
+
+				<div class="statistic _container">
+					<div class='statistic__container'>
+
+						<div class="statistic__column">
+							<div class="statistic__item">
+								<div class="statistic__value">2,300</div>
+								<div class="statistic__key">Destinations</div>
+							</div>
+							<div class="statistic__item">
+								<div class="statistic__value">1,000</div>
+								<div class="statistic__key">Cities</div>
+							</div>
+						</div>
+
+						<div class="statistic__column">
+							<div class="statistic__item">
+								<div class="statistic__value">35,000</div>
+								<div class="statistic__key">Boats</div>
+							</div>
+							<div class="statistic__item">
+								<div class="statistic__value">50,000</div>
+								<div class="statistic__key">Sailors</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!---------------------------------------------------------------------------------------------------------------------------->
+				<section class="destinations page__section page__section_1">
+					<div class='chirpy-items'>
+						<div class='chirpy-items__container _container'>
+							<div class="chirpy-items__title">Explore our top destinations</div>
+							<div class="chirpy-items__sub-title"">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+							quis ratione rem ducimus, labore placeat.</div>
+
+						<div class=" chirpy-items__flexbox">
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destination-1.jpg"
+											alt="Figueira da Fox"></a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Figueira da Fox</div>
+										<div class="item-chirpy__sub-title">Portugal</div>
+									</div>
+									<div class="item-chirpy__label">730</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destination-2.jpg" alt="Ibiza"></a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Ibiza</div>
+										<div class="item-chirpy__sub-title">Spain</div>
+									</div>
+									<div class="item-chirpy__label">621</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destination-3.jpg"
+											alt="Palma de Mallorca"></a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Palma de Mallorca</div>
+										<div class="item-chirpy__sub-title">Spain</div>
+									</div>
+									<div class="item-chirpy__label">543</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destination-4.jpg" alt="Portofino">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Portofino</div>
+										<div class="item-chirpy__sub-title">Italy</div>
+									</div>
+									<div class="item-chirpy__label">495</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destination-5.jpg"
+											alt="Port Hercules">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Port Hercules</div>
+										<div class="item-chirpy__sub-title">Monaco</div>
+									</div>
+									<div class="item-chirpy__label">402</div>
+								</div>
+
+							</div>
+							<button class="chirpy-items__btn _btn">
+								<span class="chirpy-items__btn_text">Explore more destinations</span>
+								<i class="chirpy-items__btn_spin"></i>
+							</button>
+
+						</div>
+					</div>
+				</section>
+				<!------------------RENT YOUR BOAT------------------------------------------------>
+
+				<section class="rent page__section page__section_2">
+					<div class="rent__title">Have your own boat?</div>
+					<div class="rent__sub-title">Navigare nessete est, vivere non est necesse</div>
+					<a href="#" class="rent__btn _btn">Rent your boat</a>
+
+
+
+				</section>
+				<!------------------------------------------------------------------------>
+
+				<section class="featured page__section page__section_3">
+					<div class="chirpy-items">
+
+						<div class='chirpy-items__container _container'>
+
+							<div class="chirpy-items__title">Featured boats</div>
+							<div class="chirpy-items__sub-title">Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Rem, quisquam culpa!</div>
+							<div class="chirpy-items__flexbox">
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/boat-1.jpg" alt="Delphia 47">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Delphia 47</div>
+										<div class="item-chirpy__sub-title">Gdansk, Poland
+											<p>8 Berths</p>
+										</div>
+									</div>
+									<div class="item-chirpy__label">€580 / day</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/boat-2.jpg" alt="Sense 55">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Sense 55</div>
+										<div class="item-chirpy__sub-title">Portofino, Italy
+											<p>12 Berths</p>
+										</div>
+									</div>
+									<div class="item-chirpy__label">€950 / day</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/boat-3.jpg" alt="Cruiser 51">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Cruiser 51</div>
+										<div class="item-chirpy__sub-title">Palma de Mallorca, Spain
+											<p>10 Berths</p>
+										</div>
+									</div>
+									<div class="item-chirpy__label">€820 / day</div>
+								</div>
+
+								<div class="chirpy-items__item item-chirpy">
+									<a href="#" class="item-chirpy__pic _ibg"><img src="/img/boat-4.jpg" alt="Cruiser 41S">
+									</a>
+									<div class="item-chirpy__descr">
+										<div class="item-chirpy__title">Cruiser 41S</div>
+										<div class="item-chirpy__sub-title">Lisbon, Portugal
+											<p>8 Berths</p>
+										</div>
+									</div>
+									<div class="item-chirpy__label">€400 / day</div>
+								</div>
+
+
+
+							</div>
+							<button class="chirpy-items__btn _btn">
+								<span class="chirpy-items__btn_text">Load more boats</span>
+								<i class="chirpy-items__btn_spin"></i>
+							</button>
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+			</main>
+			<!----------------------------------------FOOTER------------------------------------------------>
+			<footer class="footer">
+				<div class='footer__container _container'>
+					<div class="footer__flexbox">
+
+						<div class="footer__col">
+							<div class="footer__title">Top locations</div>
+							<ul class="footer__list">
+								<li><a href="" class="footer__link">Lorem, ipsum dolor.</a></li>
+								<li><a href="" class="footer__link">Minus, dolorem provident?</a></li>
+								<li><a href="" class="footer__link">Beatae, architecto fugit?</a></li>
+								<li><a href="" class="footer__link">Illum, voluptatem officiis.</a></li>
+								<li><a href="" class="footer__link">Repellendus, optio tempora!</a></li>
+							</ul>
+						</div>
+
+						<div class="footer__col">
+							<div class="footer__title">Featured boats</div>
+							<ul class="footer__list">
+								<li><a href="" class="footer__link">Lorem, ipsum dolor.</a></li>
+								<li><a href="" class="footer__link">Placeat, quisquam nemo!</a></li>
+								<li><a href="" class="footer__link">Dolore, quo ullam!</a></li>
+								<li><a href="" class="footer__link">Veritatis, quia voluptatem!</a></li>
+							</ul>
+						</div>
+
+						<div class="footer__col social">
+							<div class="footer__title">Subscribe to our newsletter</div>
+							<form name="subscribe" data-set="subscribe" class="social__form form">
+								<input type="text" name="subscribe" value="" class="form__input"
+									placeholder="Your email adress">
+								<button name="subscribe" type="button" class="form__submit">Subscribe</button>
+							</form>
+							<div class="social__icons">
+								<a href="#" class="social__icon fb"></a>
+								<a href="#" class="social__icon twitter"></a>
+								<a href="#" class="social__icon google"></a>
+							</div>
+						</div>
+
+						<div class="footer__col">
+							<div class="footer__title">Contact us:</div>
+							<ul class="footer__list">
+								<li><a href="" class="footer__link">Lorem, ipsum dolor.</a></li>
+								<li><a href="" class="footer__link">Placeat, quisquam nemo!</a></li>
+								<li><a href="" class="footer__link">Dolore, quo ullam!</a></li>
+								<li><a href="" class="footer__link">Veritatis, quia voluptatem!</a></li>
+							</ul>
+						</div>
+
+
+
+					</div>
+
+					<div class="made-by">created by <a href="https://t.me/rkozhan">Rkozhan Studio</a>, 2021</div>
+				</div>
+
+			</footer>
+
+		</div>
+		<!----------------------------------------END PARALLAX GLOBAL CONTAINER------------------------->
+
+
+
+
+
+
+
+	</div>
+	<!----------------------------------------SCRIPTS  ------------------------------------------------------------------------------>
+
+
+	<script src="js/script.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/header-nav.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+
+</html>

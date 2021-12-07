@@ -1,0 +1,123 @@
+/*-----------------------------SLIDER---SWIPER--------
+https://swiperjs.com/        
+------------------------------------------------------
+
+Use Swiper from CDN
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+--------------------------------------------------------------------------------------------
+Add Swiper HTML Layout:
+
+<!-- Slider main container -->
+			<div class="slider__container swiper">
+				<!-- Additional required wrapper -->
+				<div class="slider__wrapper swiper-wrapper">
+					<!-- Slides -->
+					<div class="slider__slide swiper-slide">text, img, another sliders 1
+						<div class="slider__image">
+							<img src="img/slider/01.jpg" alt="">
+						</div>
+					</div>
+					<div class="slider__slide swiper-slide">text, img, another sliders 2
+						<div class="slider__image">
+							<img src="img/slider/02.jpg" alt="">
+						</div>
+					</div>
+					<div class="slider__slide swiper-slide">text, img, another sliders 3
+						<div class="slider__image">
+							<img src="img/slider/03.jpg" alt="">
+						</div>
+					</div>
+					<!--ETC...-->
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+				<!-- If we need scrollbar -->
+				<div class="swiper-scrollbar"></div>
+			</div>
+----------------------------------------------------------------------------------------
+
+--------------------------------------------------------
+CSS
+we may need to add some custom styles to set Swiper size:
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+
+-------------------------------------------------------------------------------*/
+/*---
+.slider__container {
+	padding: 30px 0 70px 0;
+}
+.slider__wrapper {
+}
+.slider__slide {
+}
+.slider__image {
+	text-align: center;
+	img {
+		max-width: 100%;
+	}
+}
+-----*/
+
+.slider {
+	//width: 500px;
+	height: 600px;
+	text-align: center;
+
+	.swiper-button-prev::after,
+	.swiper-button-next::after {
+		color: rgba($color: #fff, $alpha: 0.2);
+		font-size: 80px;
+	}
+	&:hover .swiper-button-prev::after,
+	&:hover .swiper-button-next::after {
+		color: rgba($color: #fff, $alpha: 0.3);
+	}
+
+	.swiper-pagination {
+		bottom: 1px;
+	}
+
+	.swiper-pagination-bullet {
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 16px;
+		color: rgba($color: #000, $alpha: 0.5);
+		background-color: rgba($color: #fff, $alpha: 0.8);
+		//border: 1px solid white;
+	}
+	/*
+	.swiper-pagination-fraction {
+		font-size: 20px;
+		color: #fff;
+	}
+
+	.swiper-pagination-progressbar-fill {
+		background-color: orangered;
+	}
+*/
+	.swiper-scrollbar-drag {
+		cursor: pointer;
+		height: 12px;
+		margin-top: -5px;
+		background-color: rgba($color: #fff, $alpha: 0.2);
+		border: 1px solid rgba($color: #fff, $alpha: 0.5);
+	}
+}
