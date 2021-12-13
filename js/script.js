@@ -127,6 +127,7 @@ function renderItem() {
 		<div class="item-chirpy__label">${allDestinations[i].numberOfBoats}</div>`;
 	destinations.append(newItem);
 }
+
 renderItem();
 renderItem();
 renderItem();
