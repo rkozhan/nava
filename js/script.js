@@ -1,6 +1,5 @@
 "use strict";
 
-
 //----------------------------------------------hide header on scroll
 function getScrollDirection() {
 	const header = document.querySelector('.header'),
@@ -38,9 +37,6 @@ function getScrollDirection() {
 }
 getScrollDirection();
 
-
-
-
 //----------------------------------------------buttons on click add class and attr
 const destinations = document.querySelector('.destinations .chirpy-items__flexbox');
 const buttons = document.querySelectorAll('.chirpy-items__btn');
@@ -56,8 +52,6 @@ buttons.forEach(element => {
 		setTimeout(askNewItem, 100);
 		setTimeout(askNewItem, 200);
 		setTimeout(askNewItem, 300);
-
-
 
 		//------------------------------------------check shown destinations
 		function askNewItem() {
@@ -76,10 +70,6 @@ buttons.forEach(element => {
 		}
 	})
 });
-
-
-
-
 
 //-------------------------------------add destination to allDestinations
 class destination {
@@ -128,7 +118,7 @@ function renderItem() {
 	const newItem = document.createElement('div');
 	newItem.classList.add('chirpy-items__item');
 	newItem.classList.add('item-chirpy');
-	newItem.innerHTML = `<a href="#" class="item-chirpy__pic _ibg"><img src="/img/destinations/${i}.jpg"
+	newItem.innerHTML = `<a href="#" class="item-chirpy__pic _ibg"><img src="../img/destinations/${i}.jpg"
 		alt="${allDestinations[i].city}"></a>
 		<div class="item-chirpy__descr">
 		<div class="item-chirpy__title">${allDestinations[i].city}</div>
