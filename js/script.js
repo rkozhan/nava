@@ -118,7 +118,7 @@ function renderItem() {
 	const newItem = document.createElement('div');
 	newItem.classList.add('chirpy-items__item');
 	newItem.classList.add('item-chirpy');
-	newItem.innerHTML = `<a href="#" class="item-chirpy__pic _ibg"><img src="../img/destinations/${i}.jpg"
+	newItem.innerHTML = `<a href="#" class="item-chirpy__pic _ibg"><img src="https://rkozhan.github.io/nava/img/destinations/${i}.jpg"
 		alt="${allDestinations[i].city}"></a>
 		<div class="item-chirpy__descr">
 		<div class="item-chirpy__title">${allDestinations[i].city}</div>

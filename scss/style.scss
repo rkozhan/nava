@@ -16,7 +16,7 @@ $fontFamily: ("Open Sans", sans-serif);
 
 //-----------------------------------------------------PARALLAX
 
-$parallaxBG1: url("../img/parallax/hero-background.jpg");
+$parallaxBG1: url("https://rkozhan.github.io/nava/mg/parallax/hero-background.jpg");
 $parallaxBG2: url("/img/parallax/hero-backgroundx.jpg");
 $parallaxBG3: url("/img/parallax/hero-backgroundx.jpg");
 $parallaxGradientHeight: 0;
@@ -412,7 +412,7 @@ body._touch {
 				width: 16px;
 				height: 16px;
 				content: "";
-				background: center / cover no-repeat url("../img/anchor.png");
+				background: center / cover no-repeat url("https://rkozhan.github.io/nava/img/anchor.png");
 				display: inline-block;
 				margin-right: 12.5px;
 			}
@@ -687,7 +687,7 @@ body._touch {
 			width: 16px;
 			height: 16px;
 			content: "";
-			background: center/cover no-repeat url(../img/anchor.png);
+			background: center/cover no-repeat url(https://rkozhan.github.io/nava/img/anchor.png);
 			display: inline-block;
 			margin-right: 12.5px;
 		}
@@ -741,7 +741,7 @@ body._touch {
 	text-align: center;
 	padding: 100px 15px;
 
-	background-image: url(../img/rent-boat-background.jpg);
+	background-image: url(https://rkozhan.github.io/nava/img/rent-boat-background.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -832,7 +832,7 @@ body._touch {
 
 //-----------------------------Footer
 .footer {
-	background-image: url(../img/footer-pattern.png);
+	background-image: url(https://rkozhan.github.io/nava/img/footer-pattern.png);
 	background-repeat: repeat-x;
 	background-color: #404040;
 	color: #fff;
@@ -960,19 +960,19 @@ body._touch {
 		width: 44px;
 	}
 	.fb {
-		background-image: url(../img/anchor.png);
+		background-image: url(https://rkozhan.github.io/nava/img/anchor.png);
 		&:hover {
 			background-color: #3b5998;
 		}
 	}
 	.twitter {
-		background-image: url(../img/anchor.png);
+		background-image: url(https://rkozhan.github.io/nava/img/anchor.png);
 		&:hover {
 			background-color: #55acee;
 		}
 	}
 	.google {
-		background-image: url(../img/anchor.png);
+		background-image: url(https://rkozhan.github.io/nava/img/anchor.png);
 		&:hover {
 			background-color: #dd4b39;
 		}
