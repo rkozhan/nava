@@ -212,6 +212,5 @@ loginForm.addEventListener(('submit'), (e) => {
 		passInput.value = "";
 		setTimeout(toggleLoginWindow, 2000);
 		setTimeout(() => loginBtn.innerHTML = 'Login', 2000);
-
 	}
 });
